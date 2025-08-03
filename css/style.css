@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Quicksand:wght@300..700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: bold;
+      font-family: "Quicksand", sans-serif;
+}
+.flex
+{
+    display: flex;
+}
+.jc
+{
+    justify-content: space-between;
+}
+.ai
+{
+    align-items: center;
+}
+.gap
+{
+    gap: 20px;
+}
+.p
+{
+    padding: 20px 0;
+}
+.con
+{
+    width: 1200px;
+    margin: auto;
+}
+body
+{
+      font-family: "Roboto", sans-serif;
+      overflow-x: hidden;
+}
+nav a
+{
+color: orange;
+padding: 0 15px;
+}
+header h1 span
+{
+    color: orange;
+} 
+.btn
+{
+    background: orange; color: white; padding: 10px; border: none;
+}
+.left
+{
+    width: 500px;
+}
+.counter
+{
+    background: red; padding: 40px;
+}
+.jaround
+{
+    justify-content: space-around;
+}
+.box
+{
+    color: white;
+}
+.pa{
+    padding: 5px;
+}
+.banner
+{
+    position: relative;
+}
+.shape
+{
+    position: absolute;
+    top: -300px;
+    right: -30px;
+}
+.jcenter
+{
+    justify-content: center;
+}
+.hero
+{
+    position: absolute;
+     top: 70px;
+    right: 550px;
+    color: yellow;
+}
+.her
+{
+    position: absolute;
+    top: 170px ;
+    right: 450px;
+    color: white;
+    align: center;
+}
